@@ -1,7 +1,5 @@
-function helloWorld() {
-  console.log('Hello World!');
-}
+const core = require('core');
 
-module.exports = {
-  helloWorld: helloWorld
-}
+core.helloWorld();
+
+module.exports = core;

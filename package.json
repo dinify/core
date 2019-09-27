@@ -1,12 +1,14 @@
 {
   "name": "@dinify/core",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dinify/core.git"
@@ -16,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/dinify/core/issues"
   },
-  "homepage": "https://github.com/dinify/core#readme"
+  "homepage": "https://github.com/dinify/core#readme",
+  "dependencies": {
+    "core": "git+ssh://git@gitlab.com/dinify/staging/core.git"
+  }
 }
